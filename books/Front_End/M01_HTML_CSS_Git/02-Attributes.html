@@ -1,57 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz with Timer</title>
-    <link rel="stylesheet" href="../../../css/quiz.css" />
-  </head>
-  <body>
-    <div id="start-container">
-      <h2>Welcome to the Quiz!</h2>
-      <input
-        type="text"
-        id="username"
-        placeholder="Enter your name"
-        onfocus="clearPlaceholder(this)"
-      />
-      <button onclick="startQuiz()">Start Quiz</button>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Bio With Attributes</title>
+    <link rel="stylesheet" href="./css/02-Attributes.css">
+</head>
 
-    <div class="quiz-container" id="quiz-container" style="display: none">
-      <div id="timer">Time Left: <span id="time">36</span> seconds</div>
-      <div id="question"></div>
-      <div class="options"></div>
-      <button id="next-question" onclick="checkAnswer()">Submit</button>
-      <div id="feedback"></div>
-    </div>
+<body>
+    <header>
+        <h1 class="headers">My Bio</h1>
+    </header>
 
-    <div id="result-container" style="display: none">
-      <h2>Quiz Result</h2>
-      <div id="result"></div>
-      <button id="test-again" onclick="testAgain()">Test Again</button>
-    </div>
+    <!-- This is class attrribute with name  -->
+    <section class="Free">
+        <h2>Ei Sandar phyo</h2>
+        <img width="200px" src="./images/received_1153030915719313.jpeg" alt="Student photo">
+        <p>Hello, I'm Ei Sandar Phyo.I live in Yangon.My favourite food is ice-cream.</p>
+    </section>
 
-    <!-- Store questions in a script tag with type="application/json" -->
-  <script id="questions-data" type="application/json">
-    [
-      {
-        "question": "What is the capital of France?",
-        "options": ["Paris", "Berlin", "Rome", "Madrid"],
-        "answer": "Paris"
-      },
-      {
-        "question": "Which planet is known as the Red Planet?",
-        "options": ["Mars", "Earth", "Jupiter", "Saturn"],
-        "answer": "Mars"
-      },
-      {
-        "question": "What is the largest ocean on Earth?",
-        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-        "answer": "Pacific Ocean"
-      }
-    ]
-  </script>
-    <script src="../../../js/quiz.js"></script>
-  </body>
+    <!-- This is class attribute -->
+    <section class="Freedom">
+        <h2 class="headers">Contant Info</h2>
+        <!-- Undered list -->
+        <ul>
+            <!-- Anchor tags using href to link to external website -->
+            <!-- id attributes to provide unique identifier for element -->
+            <li id="email"><strong>Email:</strong><a href="mailto:daisybb545@gmail.com">daisybb545@gmail.com</a></li>
+            <li id="github"><strong>Github:</strong><a href="https://github.com/Daisybb2007/02-Attributes.git">https://github.com/Daisybb2007/02-Attributes.git</a></li>
+            <li id="portfolio"><strong>Portfolio:</strong><a href="Comming Sooooonnnnn!">Comming Sooooonnnnn!</a></li>
+        </ul>
+    </section>
+    
+</body>
 </html>

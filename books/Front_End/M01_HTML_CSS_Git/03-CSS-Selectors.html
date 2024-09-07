@@ -1,57 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Recordings</title>
-    <link rel="stylesheet" href="../../../css/recording.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/03-CSS-Selector.css">
+    <title>03-css-selectors</title>
+</head>
+
+<body>
     <header>
-      <h1>My Recordings</h1>
+        <h1>My Bio</h1>
     </header>
-
     <main>
-      <div class="video-player">
-        <video id="main-video" controls>
-          <source
-            src="../../../recordings/SampleVideo_1280x720_20mb.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
-      </div>
+        <section>
+            <h2>Myself</h2>
+            <figure>
+                <img width="200px" src="./images/received_1153030915719313.jpeg" alt="Student photo"/>
+                <figcaption>My Image</figcaption>
+            </figure>
+            <p class="light">Hello, I'm Ei Sandar Phyo.I live in Yangon.My favourite food is ice-cream.</p>
+        </section>
 
-      <div class="video-list">
-        <div
-          class="video-thumbnail"
-          data-video-src="../../../recordings/SampleVideo_1280x720_20mb.mp4"
-        >
-          <!-- <img src="../../../images/plant2.png" alt="Video 2" /> -->
-          <p>Video 1</p>
-        </div>
-        <div
-          class="video-thumbnail"
-          data-video-src="../../../recordings/SampleVideo_1280x720_5mb.mp4"
-        >
-          <!-- <img src="../../../images/plant2.png" alt="Video 2" /> -->
-          <p>Video 2</p>
-        </div>
-        <div
-          class="video-thumbnail"
-          data-video-src="../../../recordings/SampleVideo_1280x720_1mb.mp4"
-        >
-          <!-- <img src="../../../images/plant2.png" alt="Video 2" /> -->
-          <p>Video 3</p>
-        </div>
-        <!-- <div class="video-thumbnail" data-video-src="video2.mp4">
-          <img src="../../../images/plant2.png" alt="Video 2" />
-          <p>Video 4</p>
-        </div> -->
-        <!-- Add more thumbnails as needed -->
-      </div>
+        <section id="contact-section">
+            <h2 class="headers">Contant Info</h2>
+            <!-- Undered list -->
+            <ul>
+                <!-- Anchor tags using href to link to external website -->
+                <!-- id attributes to provide unique identifier for element -->
+                <li id="email"><strong>Email:</strong><a href="mailto:daisybb545@gmail.com">daisybb545@gmail.com</a></li>
+                <li id="github"><strong>Github:</strong><a href="https://github.com/Daisybb2007/03-css-selector.git">https://github.com/Daisybb2007/03-css-selector.git</a></li>
+                <li id="portfolio"><strong>Portfolio:</strong><a href="Comming Sooooonnnnn!">Comming Sooooonnnnn!</a></li>
+            </ul>
+        </section>
     </main>
 
-    <script src="../../../js/recording.js"></script>
-  </body>
+    <footer>
+        <p>© 2023 Student Bio Productions</p>
+    </footer>
+    
+</body>
 </html>
