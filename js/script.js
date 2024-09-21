@@ -4,22 +4,22 @@ document.addEventListener("DOMContentLoaded", () => {
   const MAX_FILES = 2;
 
   const folderStructure = {
-    // မူလတန်း: {
-    //   Grammar: ["lesson.html", "recording.html", "quiz.html"],
-    //   Sangaha: ["သင်္ဂြိုဟ်.html", "ညဝါ.html", "recording.html", "quiz.html"],
-    //   Readings: ["lesson.html", "recording.html", "quiz.html"],
-    // },
-    // သီလက္ခန်: {
-    //   book2a: ["lesson.html", "recording.html", "quiz.html"],
-    //   book2b: ["lesson.html", "recording.html", "quiz.html"],
-    // },
-    // ပထမဆင့်: {
-    //   Grammar: ["lesson.html", "recording.html", "quiz.html"],
-    //   Sangaha: ["သင်္ဂြိုဟ်.html", "ညဝါ.html", "recording.html", "quiz.html"],
-    //   ဓမ္မပဒ: ["lesson.html", "recording.html", "quiz.html"],
-    //   အင်္ဂုတ္တိုရ်: ["lesson.html", "recording.html", "quiz.html"],
-    //   မဟာဝါ: ["lesson.html", "recording.html", "quiz.html"],
-    // },
+     မူလတန်း: {
+       Grammar: ["lesson.html", "recording.html", "quiz.html"],
+       Sangaha: ["သင်္ဂြိုဟ်.html", "ညဝါ.html", "recording.html", "quiz.html"],
+       Readings: ["lesson.html", "recording.html", "quiz.html"],
+     },
+     သီလက္ခန်: {
+       book2a: ["lesson.html", "recording.html", "quiz.html"],
+       book2b: ["lesson.html", "recording.html", "quiz.html"],
+     },
+     ပထမဆင့်: {
+       Grammar: ["lesson.html", "recording.html", "quiz.html"],
+       Sangaha: ["သင်္ဂြိုဟ်.html", "ညဝါ.html", "recording.html", "quiz.html"],
+       ဓမ္မပဒ: ["lesson.html", "recording.html", "quiz.html"],
+       အင်္ဂုတ္တိုရ်: ["lesson.html", "recording.html", "quiz.html"],
+       မဟာဝါ: ["lesson.html", "recording.html", "quiz.html"],
+     },
     Front_End: {
       M01_HTML_CSS_Git: [
         "01-HTML.html",
@@ -34,11 +34,11 @@ document.addEventListener("DOMContentLoaded", () => {
         "10-Quiz.html",
       ],
       M02_Advanced_CSS: [
-        "01-HTML.html",
-        "02-Attributes.html",
-        "03-CSS-Selectors.html",
-        "04-Box-Model.html",
-        "05-CSS-Positioning.html",
+        "01-wireframe.html",
+        "02-Flexbox-Layout.html",
+        "03-Responsive-Design.html",
+        "04-Pseudo-Classes.html",
+        "05-CSS-Variables.html",
         "06-Git-Guide.html",
         "07-Challenge.html",
         "08-Module-Project.html",
@@ -46,11 +46,11 @@ document.addEventListener("DOMContentLoaded", () => {
         "10-Quiz.html",
       ],
       M03_JavaScript: [
-        "01-HTML.html",
-        "02-Attributes.html",
-        "03-CSS-Selectors.html",
-        "04-Box-Model.html",
-        "05-CSS-Positioning.html",
+        "01-Conditional-Statement.html",
+        "02-Iteration.html",
+        "03-Functions.html",
+        "04-Scope.html",
+        "05-Object-This.html",
         "06-Git-Guide.html",
         "07-Challenge.html",
         "08-Algorithms.html",
@@ -59,11 +59,11 @@ document.addEventListener("DOMContentLoaded", () => {
         "11-Quiz.html",
       ],
       M04_Web_APIs: [
-        "01-HTML.html",
-        "02-Attributes.html",
-        "03-CSS-Selectors.html",
-        "04-Box-Model.html",
-        "05-CSS-Positioning.html",
+        "01-Create-Append.html",
+        "02-Event-Listeners.html",
+        "03-Timers-Intervals.html",
+        "04-Data-Attributes.html",
+        "05-Local-Storage.html",
         "06-Git-Guide.html",
         "07-Challenge.html",
         "08-Algorithms.html",
@@ -72,11 +72,11 @@ document.addEventListener("DOMContentLoaded", () => {
         "11-Quiz.html",
       ],
       M05_Third_Party_APIs: [
-        "01-HTML.html",
-        "02-Attributes.html",
-        "03-CSS-Selectors.html",
-        "04-Box-Model.html",
-        "05-CSS-Positioning.html",
+        "01-Click-Events.html",
+        "02-Event-Delegation.html",
+        "03-Boostrap-Layout.html",
+        "04-Boostrap-Utilities.html",
+        "05-jQuery-UI.html",
         "06-Git-Guide.html",
         "07-Challenge.html",
         "08-Algorithms.html",
@@ -85,11 +85,11 @@ document.addEventListener("DOMContentLoaded", () => {
         "11-Quiz.html",
       ],
       M06_Server_Side_APIs: [
-        "01-HTML.html",
-        "02-Attributes.html",
-        "03-CSS-Selectors.html",
-        "04-Box-Model.html",
-        "05-CSS-Positioning.html",
+        "01-Create-Fetch.html",
+        "02-Parse-JSON.html",
+        "03-Demo-Dynamic.html",
+        "04-Deconstruct-Parameters.html",
+        "05-Fetch-Github-Issues.html",
         "06-Git-Guide.html",
         "07-Challenge.html",
         "08-Algorithms.html",
@@ -261,7 +261,7 @@ document.addEventListener("DOMContentLoaded", () => {
   loadBooks();
 });
 
-/*
+
 // Render
 // Function to render the book list
 function renderBookList() {
@@ -359,4 +359,4 @@ document.getElementById("searchInput").addEventListener("keypress", (event) => {
 
 // Render the full book list initially
 renderBookList();
-*/
+
