@@ -1,5 +1,5 @@
 body {
-    background-color: #e6e9c6;
+    background-color: palegreen;
 }
 
 h4 {
@@ -13,18 +13,18 @@ button {
   margin: 24px;
   cursor: pointer;
   font-size: 24px;
-  background-color: #24a056;
-  color: white;
+  background-color: #000;
+  color: goldenrod;
 }
 
 .container {
   display: block;
   margin: 80px auto;
   text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 #000;
   transition: 0.3s;
   width: 60vw;
-  background-color: #9ceed5;
+  background-color: purple;
 }
 
 .wrapper {

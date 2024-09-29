@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: palegreen;
 }
 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: seagreen;
+    color: #000;
 }
 
 header h1 {
@@ -21,7 +21,7 @@ header h1 {
 }
 
 header h1 .seo {
-    color: red;
+    color: brown;
 }
 
 header nav {
@@ -42,7 +42,7 @@ header nav ul li {
 }
 
 a {
-    color: #ffffff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -83,22 +83,22 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: seagreen;
 }
 
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: brown;
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: brown;
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: brown;
 }
 
 .benefit-lead h3 {
@@ -139,8 +139,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: seagreen;
+    color: brown;
 }
 
 .online-reputation-management {
@@ -148,8 +148,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: seagreen;
+    color: brown;
 }
 
 .social-media-marketing {
@@ -157,8 +157,8 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: seagreen;
+    color: brown;
 }
 
 .search-engine-optimization img {

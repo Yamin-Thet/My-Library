@@ -11,63 +11,73 @@ body,
     margin: 0;
     padding: 0;
 }
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(228, 217, 217);
+    font-family: sans-serif;
+    background-color: #010101;
 }
+
 .wrapper {
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
 }
+
 header {
     text-align: center;
     padding: 20px;
     padding-top: 0px;
-    color: rgb(1, 17, 18);
+    color: hsl(106, 94%, 50%);
 }
+
 .card {
-    background-color: rgb(169, 169, 164);
+    background-color: hsl(349, 64%, 69%);
     border-radius: 5px;
     border-width: 1px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-    color: hsl(206, 17%, 28%);
+    box-shadow: rgb(2, 206, 238);
+    color: hsl(106, 94%, 50%);
     font-size: 18px;
     margin: 0 auto;
     max-width: 800px;
     padding: 30px 40px;
 }
+
 .card-header::after {
     content: " ";
     display: block;
     width: 100%;
-    background: rgb(199, 183, 155);
+    background: #07e0f8;
     height: 2px;
 }
+
 .card-body {
     min-height: 100px;
 }
+
 .card-footer {
     text-align: center;
 }
+
 .card-footer::before {
     content: " ";
     display: block;
     width: 100%;
-    background: rgb(199, 183, 155);
+    background: #07e0f8;
     height: 2px;
 }
+
 .card-footer::after {
     content: " ";
     display: block;
     clear: both;
 }
+
 .btn {
     border: none;
-    background-color: brown;
+    background-color: hsl(107, 92%, 15%);
     border-radius: 25px;
-    box-shadow: rgb(28, 24, 24) 0px 1px 6px 0px rgb(27, 23, 23) 0px 1px 1px 0px;
-    color: rgb(222, 212, 198);
+    box-shadow: rgb(248, 64, 8);
+    color: hsl(77, 97%, 49%);
     display: inline-block;
     font-size: 22px;
     line-height: 22px;
@@ -76,13 +86,16 @@ header {
     text-align: center;
     cursor: pointer;
 }
+
 button[disabled] {
     cursor: default;
-    background: rgb(52, 33, 70);
+    background: #5e9fe8;
 }
+
 .float-right {
     float: right;
 }
+
 #password {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -98,23 +111,27 @@ button[disabled] {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 2px dashed lightcyan;
+    border: 2px dashed #0476f8;
     border-radius: 6px;
     resize: none;
     overflow: hidden;
 }
+
 @media (max-width: 690px) {
     .btn {
-        font-size: 1rem;
-        margin: 16px 0px 0px 0px;
-        padding: 10px 15px;
+      font-size: 1rem;
+      margin: 16px 0px 0px 0px;
+      padding: 10px 15px;
     }
+  
     #password {
-        font-size: 1rem;
+      font-size: 1rem;
     }
 }
+  
 @media (max-width: 500px) {
     .btn {
-        font-size: 0.8rem;
+      font-size: 0.8rem;
     }
 }
+  

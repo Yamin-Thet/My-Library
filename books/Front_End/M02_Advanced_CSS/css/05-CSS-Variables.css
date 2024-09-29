@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
+    background-color: palegreen; 
 }
 h1 {
     font-size: 2.5rem;
@@ -16,21 +17,21 @@ h2 {
 header {
     padding: 40px;
     text-align: center;
-    background: #13293d;
-    color: #fff;
+    background: #000;
+    color: green;
 }
 nav {
     display: flex;
-    background-color: #d8a47f;
+    background-color: seagreen;
 }
 nav a {
-    color: #13293d;
+    color: #000;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
 }
 nav a:hover {
-    background-color: #fff;
+    background-color: peru;
 }
 main {
     display: flex;
@@ -41,13 +42,13 @@ footer {
     bottom: 0;
     padding: 20px;
     text-align: center;
-    background: #13293d;
-    color: #fff;
+    background: #000;
+    color: green;
     margin-top: auto;
 }
 .products {
     flex: 1;
-    background-color: #fff;
+    background-color: palegreen;
     padding: 50px;
     display: flex;
     flex-wrap: warp;
@@ -61,7 +62,7 @@ footer {
     padding: 10px;
     flex: 0 0 300px;
     transform: rotate(8deg);
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 10px 10px 5px #000;
     margin: 20px;
 }
 

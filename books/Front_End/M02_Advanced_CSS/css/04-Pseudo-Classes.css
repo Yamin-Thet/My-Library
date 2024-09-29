@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #13293d;
+    background-color: #000;
     color: #fff;
 }
 
@@ -51,7 +51,7 @@ section {
 }
 
 article {
-    border-bottom: 1px solid #d8a47f;
+    border-bottom: 1px solid #000;
 }
 
 article p {
@@ -83,7 +83,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 2%;
-    background-color: #13293d;
+    background-color: #000;
     color: #fff;
 }
 /* This resource links */

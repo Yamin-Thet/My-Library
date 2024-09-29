@@ -6,6 +6,7 @@
 body {
     font-family: Arial;
     margin: 0;
+    background-color: palevioletred;
 }
 
 main {
@@ -17,15 +18,15 @@ main {
     display: flex;
     justify-content: space-between;
     padding: 60px;
-    background: #13293d;
-    color: #fff;
+    background: purple;
+    color: #000;
 }
 .one-card {
     display: flex;
 }
 
 .one-card .card {
-    border: 2px solid #13293d;
+    border: 2px solid #000;
     width: 50%;
     display: flexbox;
     text-align: center;
@@ -33,8 +34,8 @@ main {
 
 .card header {
     padding: 20px;
-    background-color: #13293d;
-    color: #fff;
+    background-color: purple;
+    color: #000;
     margin: 0.5%;
 }
 

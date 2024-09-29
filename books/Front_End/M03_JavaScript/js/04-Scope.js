@@ -65,17 +65,17 @@ justShout();
 
 //Lexical Scope
 function getName(){
-  const myName = "Daisy";
+  const myName = "khai";
   return myName;
 }
 
 function showlastName(){
-  const lastName = "bb";
+  const lastName = "thazin";
   return lastName;  
 }
 
 function displayfullName(){
-  const fullName = "Daisy" + showlastName();
+  const fullName = "khai" + showlastName();
   return fullName;
 }
 console.log(displayfullName());
