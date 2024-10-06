@@ -27,59 +27,68 @@ submitScoreButton.addEventListener('click', saveScore);
 // Questions array
 const questions = [
     {
-        question: "မြန်မာနိုင်ငံရဲ့ မြို့တော်ကို ရွေးပါ။?",
+        question: "မြန်မာနိုင်ငံရဲ့ အမြင့်ဆုံးတောင်ကြီး ဘယ်တောင်လဲ?",
         answers: [
-            { text: "ရန်ကုန်", correct: false },
-            { text: "မန္တလေး", correct: false },
-            { text: "နေပြည်တော်", correct: true },
+            { text: "ဗန်းမော်တောင်", correct: false },
+            { text: "ပုဏ္ဏားတောင်", correct: false },
+            { text: "ဟားခါးတောင်", correct: false },
+            { text: "ချစ်တောင်", correct: true }
+        ]
+    },
+    {
+        question: "မြန်မာနိုင်ငံတွင် အလယ်ပိုင်း တိုင်းဒေသကြီးမှာ ရှိတဲ့ မြို့တော်ဟာ ဘယ်မြို့လဲ?",
+        answers: [
+            { text: "မိတ္ထီလာ", correct: false },
+            { text: "မန္တလေး", correct: true },
+            { text: "ပုဂံ", correct: false },
             { text: "စစ်ကိုင်း", correct: false }
         ]
     },
     {
-        question: " မြန်မာနိုင်ငံမှာ အကြီးဆုံး ထိုင်တော်မူဘုရားဟာ, ဘယ်မြို့မှာ ရှိတာလဲ?",
+        question: "ကချင်ပြည်နယ်ရဲ့ မြို့တော် ဘယ်မြို့လဲ?",
         answers: [
-            { text: "ဂေါတမဗုဒ္ဓဘုရား မွန်ပြည်နယ် ကျိုက်ထိုမြို့", correct: false },
-            { text: "လောကချမ်းသာ အဘယလာဘမုနိ ကျောက်တော်ကြီးဘုရား ရန်ကုန်မြိုံ", correct: false },
-            { text: "မာရဝိဇယဘုရား နေပြည်တော်မြို့", correct: true },
-            { text: "မဇ္စျိမလာဘဗောဓိဘုရား ကချင်ပြည်နယ်", correct: false }
+            { text: "မြစ်ကြီးနား", correct: true },
+            { text: "မိုးညှင်း", correct: false },
+            { text: "မိုးကောင်း", correct: false },
+            { text: "တနိုင်း", correct: false }
         ]
     },
     {
-        question: "ရဟန်းတွေ စောင့်ထိန်းရတဲ့ ဝိနည်းစည်းကမ်း သိက္ခာပုဒ်က ဘယ်လောက်ရှိပါသလဲ?",
+        question: "မြန်မာနိုင်ငံမှာ အကြီးဆုံးကျွန်းကြီးက ဘာလဲ?",
         answers: [
-            { text: "၂၂၀", correct: false },
-            { text: "၂၂၇", correct: true },
-            { text: "၃၃၁", correct: false },
-            { text: "၄၂၁", correct: false }
+            { text: "ငါးခူကျွန်း", correct: false },
+            { text: "ပုလဲကျွန်း", correct: true },
+            { text: "ဆင်ဖျာကျွန်း", correct: false },
+            { text: "ရေတွင်းကျွန်း", correct: false }
         ]
     },
     {
-        question: "ကိုရင်တွေ စောင့်ထိန်းရတဲ့ ဝိနည်းစည်းကမ်း သိက္ခာပုဒ်က ဘယ်လောက်ရှိပါသလဲ?",
+        question: "မြန်မာနိုင်ငံရဲ့ အကြီးဆုံး မြစ်က ဘာလဲ?",
         answers: [
-            { text: "၇၅", correct: false },
-            { text: "၁၀၉", correct: false },
-            { text: "၁၁၉", correct: true },
-            { text: "၁၄၀", correct: false }
+            { text: "ဧရာဝတီမြစ်", correct: true },
+            { text: "သံလျင်မြစ်", correct: false },
+            { text: "ချင်းတွင်းမြစ်", correct: false },
+            { text: "မဲခေါင်မြစ်", correct: false }
         ]
     },
     {
-        question: "သီလရှင်တွေ စောင့်ထီန်းရတဲ့ ဝိနည်းစည်းကမ်း သိက္ခာပုဒ်က ဘယ်လောက်ရှိပါသလဲ?",
+        question: "မြန်မာနိုင်ငံမှာရှိတဲ့ အကြီးဆုံးအာဏာပိုင် ဒေသက ဘယ်လိုခေါ်ကြသလဲ?",
         answers: [
-            { text: "၁၀", correct: false },
-            { text: "၉", correct: false },
-            { text: "၈", correct: true },
-            { text: "၅", correct: false }
+            { text: "မြောက်ပိုင်း", correct: false },
+            { text: "အရှေ့ပိုင်း", correct: false },
+            { text: "အလယ်ပိုင်း", correct: false },
+            { text: "တိုင်းရင်းသားဒေသကြီး", correct: true }
         ]
     },
     {
-        question: "လူတွေ ခါးဝတ်ပုဆိုးလို မြဲရမယ့် ကျင့်ဝတ် ဘယ်နှစ်ပါးရှိပါသလဲ?",
+        question: "မြန်မာနိုင်ငံမှာ ရှမ်းပြည်နယ်မြောက်ပိုင်းရဲ့ အကြီးဆုံးမြို့က ဘယ်မြို့လဲ?",
         answers: [
-            { text: "၁၀", correct: false },
-            { text: "၉", correct: false },
-            { text: "၈", correct: false },
-            { text: "၅", correct: true }
+            { text: "မူဆယ်", correct: true },
+            { text: "လားရှိုး", correct: false },
+            { text: "ကျိုင်းတုံ", correct: false },
+            { text: "နမ့်ခမ်း", correct: false }
         ]
-    },
+    }
    
    
     
